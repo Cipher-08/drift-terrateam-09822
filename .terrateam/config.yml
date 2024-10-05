@@ -1,7 +1,7 @@
 hooks:
   all:
     pre:
-      - type: oidc
+      - type: drift_create_issue
         provider: aws
         role_arn: "arn:aws:iam::017777978390:role/terrateam"
 drift:
