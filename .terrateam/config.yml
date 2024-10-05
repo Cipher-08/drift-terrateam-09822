@@ -6,4 +6,6 @@ hooks:
         role_arn: "arn:aws:iam::017777978390:role/terrateam"
 drift:
   enabled: true
-  schedule: daily
+  reconcile: true
+  schedule: hourly
+  
