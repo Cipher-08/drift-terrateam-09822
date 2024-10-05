@@ -4,3 +4,6 @@ hooks:
       - type: oidc
         provider: aws
         role_arn: "arn:aws:iam::017777978390:role/terrateam"
+drift:
+  enabled: true
+  schedule: daily
